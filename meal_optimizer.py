@@ -75,7 +75,7 @@ if st.button('Calculate Optimal Strategy'):
     # Possible numbers of dishes to make
     dish_range = range(0, 51)  # reasonable upper bound
 
-    for cold in dish_range:=range(0,51):
+    for cold in dish_range:
         for grilled in range(0,51):
             for cherry in range(0,51):
                 for pro in range(0,51):
